@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #f3f5f7;
+    border-radius: 3px;
+}
+
+.item .item-image {
+    margin-right: 10px;
+}
+
+.item .item-image img {
+    width: 100%;
+    display: block;
+}
+
+.item .item-info > div:first-child {
+    font-weight: bold;
+}
+
+.item .item-info > div:last-child {
+    font-size: 0.8em;
+    color: #868686;
+}

@@ -1,0 +1,17 @@
+.games-list {
+    height: 100vh;
+    overflow-y: auto;
+    margin-right: 20px;
+}
+
+.games-list .selected {
+    background-color: #fff;
+}
+
+.game-item {
+    cursor: pointer;
+}
+
+.game-item:hover {
+    background-color: #fff;
+}
